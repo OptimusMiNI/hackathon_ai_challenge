@@ -1,0 +1,27 @@
+Cel: zrobić narzędzie, które "nauczy się" systemu zamiast Ciebie.
+Narzędzie, które będzie umiało naprawiać błędy i pisać nowe funkcjonalności w tym systemie.
+
+Te modele i technologie skupiają się na „szerokiej wiedzy”,
+dotyczącej danego języka programowania lub są asystentami „general purpose”
+wspierającymi programistów w różnych kontekstach.
+
+Struktura:
+1. Koncepcja rozwiązania;
+2. Architektura funkcjonalna;
+3. Architektura techniczna;
+4. Plan wdrożenia rozwiązania docelowego (z szacowaniem pracochłonności);
+5. Kod narzędzia;
+6. Demo
+
+
+Przykladowe rozwiazania:
+1. Dokumentacja z auto updatem
+2. Zrozumienie kodu przez AI
+3. 
+4.
+5.
+6.
+7.
+8.
+9.
+10.
