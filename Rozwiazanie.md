@@ -22,7 +22,7 @@ Po tym wszystkim wysyłamy nasz plik i plik konfiguracyjny do czatu gpt, który 
 
 Spośród dużej ilości możliwych sposobów na wykorzystanie takie dokumentacji możemy wyróżnić:
 1)Pomoc w rozumieniu projekta pracownikowi pracującemu z nim.
-1)Automatyczna aktualizacja dokumentacji, wykonując te same czynności.
+2)Automatyczna aktualizacja dokumentacji, wykonując te same czynności.
 
 
 
