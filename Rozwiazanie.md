@@ -13,7 +13,7 @@ Drzewa robimy za pomocą <a href='https://tree-sitter.github.io/tree-sitter/'>tr
 Przykład:
 ![ezgif com-gif-maker (2)](https://github.com/OptimusMiNI/hackathon_ai_challenge/assets/110894357/c811987b-ffbc-46d4-b735-11853f14a44f)
 
-Następnie tworzymy plik na podstawie otrzymanych opisów wszystkich funkcji i części kodu otrzymanych z modelu code-t5+. Opcjonalnie tworzymy plik docs.config, który będzie opisywał ogólną strukturę naszego projektu.  Za pomocą tej konfiguracji sztuczna inteligencja będzie w stanie lepiej zrozumieć nasz projekt, będzie mogła zobaczyć strukturę modułów, wcześniejsze zatwierdzenia i tak dalej. (git commits, fixed issues)
+Następnie tworzymy plik na podstawie otrzymanych opisów wszystkich funkcji i części kodu otrzymanych z modelu code-t5+. Opcjonalnie tworzymy plik docs.config, który będzie opisywał ogólną strukturę naszego projektu.  Za pomocą tej konfiguracji sztuczna inteligencja będzie w stanie lepiej zrozumieć nasz projekt, będzie mogła zobaczyć strukturę modułów, wcześniejsze zatwierdzenia i tak dalej. (git commits, fixed issues, tests)
 Przykład:
 ![Screenshot from 2023-12-10 12-37-12](https://github.com/OptimusMiNI/hackathon_ai_challenge/assets/110894357/26f244fc-f2c2-4602-bfaa-f7ae05a5fb8e)
 ...
@@ -28,6 +28,9 @@ Dlaczego wybraliśmy model code-t-5+?
 Bo jest najlepszym modelem dla kodu:
 ![image](https://github.com/OptimusMiNI/hackathon_ai_challenge/assets/110894357/3b4cf4a0-3f91-4d62-a972-57a965ab847f)
 
+
+Plan wdrożenia:
+nasze narzędzie można wykorzystać do absolutnie każdego projektu. Jeśli dokumentacja już istnieje, można ją zoptymalizować za pomocą tego samego narzędzia.
 
 Mając dobrą dokumentację można szukać błędów w kodzie, szukać potrzebnych fragmentów kodu i w ogóle dużo łatwiej jest zrozumieć cały kod.
 
