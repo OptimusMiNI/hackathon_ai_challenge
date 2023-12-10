@@ -1,6 +1,25 @@
+Przykłady opisów:
+
+
 {
-  "class_AcademicSession": "The `AcademicSession` class, defined as a Django model (presumably inherited from `models.Model`), represents an academic session or term in a database. Each session has a `name` field that is a string up to 200 characters long and must be unique across all instances. The `current` field is a boolean indicating whether this session is the current active one, defaulting to `True`. The model includes a nested `Meta` class that specifies default ordering for query results; in this case, sessions are ordered in descending order by their `name`. Finally, the `__str__` method returns the session's name, providing a human-readable representation of the model instances.",
-  "class_AcademicTerm": "This Python code defines an `AcademicTerm` class for a Django model, representing a term or semester within an academic institution. The class contains two fields: `name`, a character field with a maximum length of 20 characters that must be unique across instances, and `current`, a Boolean field that indicates whether the term is the current one, defaulting to `True`. Metadata options are specified within the inner `Meta` class, setting the default ordering of query results to be alphabetically by the `name` field. The `__str__` method is overridden to return the term's name when an instance of `AcademicTerm` is represented as a string.",
-  "class_Subject": "The provided Python code defines a class `Subject`, which is a subclass of `models.Model`, indicating it is a Django model used for creating a database table for subjects. The class contains a single field `name`, which is of type `CharField` with a maximum length of 200 characters and is set to be unique, meaning no two `Subject` instances can have the same name. The inner `Meta` class specifies that when querying the database for multiple instances of `Subject`, they should be ordered alphabetically by the `name` field. The `__str__` method returns the `name` of the `Subject` when its instance is printed or converted to a string, providing a human-readable representation of the model.",
-  "class_Result": "The `Result` class is a Django model representing a student's academic outcomes. It links to several related entities through foreign keys: `Student`, `AcademicSession`, `AcademicTerm`, `StudentClass`, and `Subject`, establishing relationships that, when a record is deleted, all related `Result` entries are also deleted due to the `CASCADE` deletion policy. Additionally, it keeps track of the student's performance with two integer fields, `test_score` and `exam_score`, which default to 0. This model is typically used to store and manage student grades for different subjects within a specific class, term, and academic session."
+  "class_AcademicSession": "The `AcademicSession` class, defined as a Django model (presumably inherited from `models.Model`), 
+  represents an academic session or term in a database. Each session has a `name` field that is a string up to 200 characters long and must be unique across all instances.
+  The `current` field is a boolean indicating whether this session is the current active one, defaulting to `True`. 
+  The model includes a nested `Meta` class that specifies default ordering for query results; in this case, sessions are ordered in descending order by their `name`.
+  Finally, the `__str__` method returns the session's name, providing a human-readable representation of the model instances.",
+  "class_AcademicTerm": "This Python code defines an `AcademicTerm` class for a Django model,
+  representing a term or semester within an academic institution. The class contains two fields: `name`, 
+  a character field with a maximum length of 20 characters that must be unique across instances, and `current`, a Boolean field that indicates whether the term is the current one,
+  defaulting to `True`. Metadata options are specified within the inner `Meta` class, setting the default ordering of query results to be alphabetically by the `name` field.
+  The `__str__` method is overridden to return the term's name when an instance of `AcademicTerm` is represented as a string.",
+  "class_Subject": "The provided Python code defines a class `Subject`, which is a subclass of `models.Model`, 
+  indicating it is a Django model used for creating a database table for subjects. The class contains a single field `name`, 
+  which is of type `CharField` with a maximum length of 200 characters and is set to be unique, meaning no two `Subject` instances can have the same name. 
+  The inner `Meta` class specifies that when querying the database for multiple instances of `Subject`, they should be ordered alphabetically by the `name` field. 
+  The `__str__` method returns the `name` of the `Subject` when its instance is printed or converted to a string, providing a human-readable representation of the model.",
+  "class_Result": "The `Result` class is a Django model representing a student's academic outcomes. 
+  It links to several related entities through foreign keys: `Student`, `AcademicSession`, `AcademicTerm`, `StudentClass`, and `Subject`, 
+  establishing relationships that, when a record is deleted, all related `Result` entries are also deleted due to the `CASCADE` deletion policy. 
+  Additionally, it keeps track of the student's performance with two integer fields, `test_score` and `exam_score`, which default to 0. 
+  This model is typically used to store and manage student grades for different subjects within a specific class, term, and academic session."
 }
