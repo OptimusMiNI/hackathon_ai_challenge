@@ -33,6 +33,6 @@ Mając dobrą dokumentację można szukać błędów w kodzie, szukać potrzebny
 
 
 
-Yahor Lahunovich
-Maksim Razantsau
+Yahor Lahunovich <br>
+Maksim Razantsau <br>
 Yauheni Butsialevich
