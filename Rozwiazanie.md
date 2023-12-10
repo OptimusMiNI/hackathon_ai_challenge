@@ -13,14 +13,16 @@ Drzewa robimy za pomocą <a href='https://tree-sitter.github.io/tree-sitter/'>tr
 Przykład:
 ![ezgif com-gif-maker (2)](https://github.com/OptimusMiNI/hackathon_ai_challenge/assets/110894357/c811987b-ffbc-46d4-b735-11853f14a44f)
 
-Następnie tworzymy plik na podstawie otrzymanych opisów wszystkich funkcji i części kodu otrzymanych z modelu code-t5+. Opcjonalnie tworzymy plik docs.config, który będzie opisywał ogólną strukturę naszego projektu.  Za pomocą tej konfiguracji sztuczna inteligencja będzie w stanie lepiej zrozumieć nasz projekt, będzie mogła zobaczyć strukturę modułów, wcześniejsze zatwierdzenia i tak dalej. (git commits, fixed issues, tests)
+Następnie tworzymy bazę dannych na podstawie otrzymanych opisów wszystkich funkcji i części kodu otrzymanych z modelu code-t5+. Opcjonalnie tworzymy plik docs.config, który będzie opisywał ogólną strukturę naszego projektu.  Za pomocą tej konfiguracji sztuczna inteligencja będzie w stanie lepiej zrozumieć nasz projekt, będzie mogła zobaczyć strukturę modułów, wcześniejsze zatwierdzenia i tak dalej. (git commits, fixed issues, tests)
 Przykład:
 ![Screenshot from 2023-12-10 12-37-12](https://github.com/OptimusMiNI/hackathon_ai_challenge/assets/110894357/26f244fc-f2c2-4602-bfaa-f7ae05a5fb8e)
 ...
 
 Po tym wszystkim wysyłamy nasz plik i plik konfiguracyjny do czatu gpt, który pisze nam dużą szczegółową dokumentację na podstawie całego projektu (możesz wybrać rodzaj dokumentacji: dokumentacja dla programisty, dokumentacja dla klienta i tak dalej. .).  Dodać należy, że konieczne jest także opracowanie odpowiednich promptów, na podstawie których sztuczna inteligencja będzie tworzyć dokumentację.
 
-Możliwa jest także automatyczna aktualizacja dokumentacji, wykonując te same czynności.
+Spośród dużej ilości możliwych sposobów na wykorzystanie takie dokumentacji możemy wyróżnić:
+1)Pomoc w rozumieniu projekta pracownikowi pracującemu z nim.
+2)Automatyczna aktualizacja dokumentacji, wykonując te same czynności.
 
 
 
